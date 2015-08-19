@@ -1,4 +1,4 @@
-r http = require("http");
+var http = require("http");
 var os = require("os");
 http.createServer(function(request, response) {
     console.log("New request arrived.");
